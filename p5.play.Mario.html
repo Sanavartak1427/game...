@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://mahdihat791.github.io/AI-Mario-Game/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="./p5.play.Mario_files/ml5.min.js.download"></script><style type="text/css" data-glamor=""></style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./p5.play.Mario_files/bootstrap.min.css">
+    <script src="./p5.play.Mario_files/jquery.min.js.download"></script>
+    <script src="./p5.play.Mario_files/bootstrap.min.js.download"></script>
+    
+    <title>p5.play.Mario</title>
+    <!-- link p5.js and its addons like p5.dom.js or p5.sound.js -->
+    <script src="./p5.play.Mario_files/p5.min.js.download" type="text/javascript"></script>
+    <!-- link p5.play.js -->
+    <script src="./p5.play.Mario_files/p5.play.js.download" type="text/javascript"></script>
+    <!-- link p5.dom.js -->
+    <script src="./p5.play.Mario_files/p5.dom.js.download" type="text/javascript"></script>
+
+    <!-- link your javascript sketch -->
+    <script src="./p5.play.Mario_files/sprites.js.download" type="text/javascript"></script>
+    <script src="./p5.play.Mario_files/main.js.download" type="text/javascript"></script>
+    <script src="./p5.play.Mario_files/characters_environment.js.download" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="./p5.play.Mario_files/style.css">
+    <script src="./p5.play.Mario_files/p5.sound.min.js.download"></script>
+  </head>
+  <body background="./p5.play.Mario_files/background.jpg">
+    <center>
+
+      <div class="btn btn-primary heading">
+        <h3>AI MARIO GAME </h3>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
+      </div>
+
+      <img src="./p5.play.Mario_files/mario.jpg" class="big_image">
+      <br><br>
+      <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+      <br><br>
+      <h3 id="status" class="btn btn-warning"></h3>
+      <br><br>
+      <div id="canvas"><canvas id="defaultCanvas0" width="2480" height="672" style="width: 1240px; height: 336px;"></canvas></div>
+      <div id="game_console"><video crossorigin="anonymous" width="640" height="480" style="width: 800px; height: 400px;"></video></div>
+      <h4>Source Code : <a href="https://github.com/linuk">Linuk</a> ||  Game Credit : Mario</h4>
+      
+      <div id="myModal" class="modal fade ">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+      
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">×</button>
+              <h4>Instructions</h4>
+            </div>
+      
+             <div class="modal-body">
+                <img src="./p5.play.Mario_files/jump.png" class="img-responsive instruction_image">
+                <img src="./p5.play.Mario_files/right.png" class="img-responsive instruction_image">
+                <img src="./p5.play.Mario_files/left.png" class="img-responsive instruction_image">
+              </div>
+
+          </div>
+        </div>
+      </div>
+</center>
+
+
+</body></html>
